@@ -1,6 +1,7 @@
 import { Typography, Box, Stack } from "@mui/material"
 import ComboBox from "./components/ComboBox"
 import ExampleString from "./components/ExampleString"
+import ExampleObject from "./components/ExampleObject"
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
        <Stack spacing={3}>
         <ComboBox />
         <ExampleString />
+        <ExampleObject />
        </Stack>
       </Box>
     </>
