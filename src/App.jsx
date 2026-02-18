@@ -1,19 +1,25 @@
-import { Typography, Box } from "@mui/material"
+import { Typography, Box, Stack } from "@mui/material"
 import ComboBox from "./components/ComboBox"
+import ExampleString from "./components/ExampleString"
 
 function App() {
 
 
   return (
-    <Box
-      sx={{ p: 2 }}
-    >
-      <Typography>
-         MUI Autocomplete practice
-      </Typography>
+    <>
+      <Box
+        sx={{ p: 2 }}
+      >
+        <Typography mb={2}>
+          MUI Autocomplete practice
+        </Typography>
 
-      <ComboBox />
-    </Box>
+       <Stack spacing={3}>
+        <ComboBox />
+        <ExampleString />
+       </Stack>
+      </Box>
+    </>
   )
 }
 
