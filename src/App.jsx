@@ -3,6 +3,7 @@ import ComboBox from "./components/ComboBox"
 import ExampleString from "./components/ExampleString"
 import ExampleObject from "./components/ExampleObject"
 import ExampleDuplicate from "./components/ExampleDuplicate"
+import CountrySelect from "./components/CountrySelect"
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
         <ExampleString />
         <ExampleObject />
         <ExampleDuplicate />
+        <CountrySelect />
        </Stack>
       </Box>
     </>
